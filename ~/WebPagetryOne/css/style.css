@@ -1,0 +1,175 @@
+body {
+	background: url(D:/WP/image/backround.png) repeat #999;
+	font-family:  "Arial", Arial, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color: Black;
+	line-height: 1.4em;
+	text-shadow: 0px 1px 0px #f5f5f5;
+}
+.clear {
+	clear:both; font-size: 0px; list-style: 0px;
+}
+
+/*Typography and default*/
+/*---------------------------------------------------------------------------*/
+h1,h2,h3 {
+	color: #626262;
+	line-height: 1em;
+	font-weight: normal;
+}
+h1 {
+	font-size: 16px;
+	margin-bottom: 15px;
+	padding-top: 20px;
+	clear: both;
+}
+h1 span {
+	font-size: 12px;
+}
+h2 {
+	font-size: 13px;
+	padding-bottom: 5px;
+}
+h2 span {
+	font-size: 11px;
+}
+h3 {
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+a {
+	text-decoration: none;
+	color: #3e3e3e;
+}
+
+/*tabs*/
+/*---------------------------------------------------------------------------*/
+#tab_style {
+	width: 570px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+/*header and navigation*/
+/*---------------------------------------------------------------------------*/
+#header {
+	background: url(D:/WP/image/header.png) repeat-x;
+	width: 520px;
+	height: 45px;
+	float: left;
+	padding-top: 35px;
+	padding-left: 25px;
+	padding-right: 25px;
+	clear: both;
+}
+ul.tab_nav li {
+	display: inline;
+	list-style: none;
+	
+}
+ul.tab_nav li a {
+	font-size: 22px;
+	color: #ffffff;
+	float: left;
+	margin-right: 20px;
+	display: block;
+	padding-bottom: 10px;
+}
+.current_tab{
+    
+}
+
+/*----content-----------------------------------------------------------------------*/
+.content {
+	background: url(D:/WP/image/contentbackround.png) repeat #999;
+	width: 570px;
+	clear: both;
+	padding:0;
+}
+
+#home {
+
+	padding: 0px 25px 20px 25px;
+	clear: both;
+	
+}
+#home img {
+	padding: 5px;
+	background-color: #FFF;
+	margin-left: 146px;
+	margin-top: 35px;
+}
+p.quote {
+	color: #626262;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+#about {
+	padding: 0px 25px 20px 25px;
+	clear: both;
+	
+}
+
+/*-----consulting----------------------------------------------------------------------*/
+#consulting {
+	padding: 0px 25px 15px 25px;
+	clear: both;
+}
+
+.cTitle{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	line-height : 150%;
+}
+
+.virus{
+	width: 250px;
+	float: left;
+	margin-right: 20px;
+	padding-bottom: 10px;
+}
+
+
+
+.guarantee{
+	padding-top: 400px;
+}
+
+/*----social-----------------------------------------------------------------------*/
+#social {
+	padding: 0px 25px 0px 25px;
+	clear: both;
+}
+.underconstruction{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	line-height : 150%;
+
+}
+
+/*-----contact----------------------------------------------------------------------*/
+#contact {
+	padding: 0px 25px 20px 25px;
+	clear: both;
+}
+
+
+
+/*----Footer-----------------------------------------------------------------------*/
+#footer {
+	background: url(D:/WP/image/header.png) repeat-x;
+	width: 570px;
+	height: 45px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+#footer p {
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	color: #FFF;
+}

@@ -1,0 +1,38 @@
+form {
+margin-top: 5%;
+}
+.form-group {
+color: white;
+}
+.col-sm-4 {
+vertical-align: center;
+}
+
+.Header {
+text-align: center;
+color: white;
+}
+
+.button {
+background-color: rgba(0, 188, 140, 1);
+}
+
+.fa-paper-plane {
+color: rgba(0, 188, 140, 1);
+}
+
+@media (min-width: 1200px) {
+    .email {
+        margin-left:17%;
+    }
+}
+
+@media (min-width: 992px) {
+    .email {
+        margin-left:20%;
+    }
+}
+
+#Twitter {
+
+}
