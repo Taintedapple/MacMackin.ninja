@@ -7,6 +7,15 @@ color: rgba(0, 188, 140, 1);
 text-align: center;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-4 {
+		max-width: 50%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
 /* Custom container */
 .container-full {
   margin: 0 auto;
