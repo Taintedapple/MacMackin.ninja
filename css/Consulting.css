@@ -1,11 +1,11 @@
-  font-size:80px;
-  color:#DDCCEE;
-}
-
 .lead {
 	color:#DDCCEE;
 }
 
+.h1 {
+color: rgba(0, 188, 140, 1);
+text-align: center;
+}
 
 /* Custom container */
 .container-full {
@@ -25,4 +25,4 @@
 .v-center {
   margin-top:7%;
 }
-  
+
