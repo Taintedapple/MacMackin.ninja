@@ -15,12 +15,15 @@ color: white;
 
 .btn-primary {
 background: rgba(0, 188, 140, 1);
+border-color: black;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary:active .btn-primary.active {
     background: rgba(0, 204, 153, 1);
 	color: black;
+	border-color: white;
 }
+
 
 .fa-paper-plane {
 color: rgba(0, 188, 140, 1);
