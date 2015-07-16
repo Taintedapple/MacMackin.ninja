@@ -1,7 +1,6 @@
 .container {
     display: table;
     vertical-align: middle;
-	margin-top: 5%;
 }
 .vertical-center-row {
     display: table-cell;
@@ -15,8 +14,8 @@
 }
 
 img{
-size:50%;
-margin-top: 10%;
+	size:50%;
+	margin-top: 7.5%;
 	display: block;
     margin-left: auto;
     margin-right: auto

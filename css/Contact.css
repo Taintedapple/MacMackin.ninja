@@ -13,8 +13,13 @@ text-align: center;
 color: white;
 }
 
-.button {
-background-color: rgba(0, 188, 140, 1);
+.btn-primary {
+background: rgba(0, 188, 140, 1);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: rgba(0, 204, 153, 1);
+	color: black;
 }
 
 .fa-paper-plane {
@@ -31,8 +36,4 @@ color: rgba(0, 188, 140, 1);
     .email {
         margin-left:20%;
     }
-}
-
-#Twitter {
-
 }
