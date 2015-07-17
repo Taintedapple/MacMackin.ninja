@@ -6,7 +6,7 @@
         $human = intval($_POST['human']);
         $from = 'Demo Contact Form'; 
         $to = 'macmackinw1@gmail.com'; 
-        $subject = 'Message from your WebSite ';
+        $subject = 'Message from Contact Demo ';
         
         $body = "From: $name\n E-Mail: $email\n Message:\n $message";
  
