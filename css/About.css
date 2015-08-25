@@ -1,6 +1,6 @@
 .container {
 margin-top: 6%;
-color: #ffffff;
+color:white;
 }
 
 .timeline {
@@ -17,7 +17,7 @@ background-color: rgba(0, 188, 140, 1);
   position: absolute;
   content: " ";
   width: 3px;
-  background-color: rgba(0, 188, 140, 1);
+  background-color: white;
   left: 50%;
   margin-left: -1.5px;
 }
