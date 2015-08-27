@@ -1,0 +1,74 @@
+.col-lg-6{
+position:center;
+
+}
+
+
+
+/* Colors */
+
+.blog-title {
+   font-family: 'Gibson', sans-serif, "Helvetica Neue", HelveticaNeue, Arial, sans-serif;
+   font-weight: bold;
+}
+
+            .blog-title a,
+            .description,
+            .search-no-results {
+                color: #56BC8A;
+            }
+
+            a {
+                color: #A77DC2;
+            }
+
+            .loader .loader-bar {
+                background-color: #56BC8A;
+            }
+
+            .header-image.cover {
+                background-image: url(http://static.tumblr.com/fc07203adf91a5ee26fa4fb6312e13ff/f5v3r4e/Wryntp45x/tumblr_static_cix3toht3fkg444csk0ocg4ko_2048_v2.jpg);
+            }
+
+            .user-avatar {
+                background-color: #444444;
+                border-color: #444444;
+            }
+
+            .avatar-style-square .user-avatar {
+                -webkit-box-shadow: 0 0 0 4px #444444;
+                box-shadow: 0 0 0 4px #444444;
+            }
+
+            .no-header-image .logo-wrapper,
+            .contain-header-image .logo-wrapper {
+                color: #A77DC2;
+            }
+
+            /* Adjust logo for light accents on light backgrounds */
+            .light-on-light.no-header-image .logo-wrapper,
+            .light-on-light.contain-header-image .logo-wrapper {
+                color: #444;
+            }
+
+            /* Adjust logo for dark accents on dark backgrounds */
+            .dark-on-dark.no-header-image .logo-wrapper,
+            .dark-on-dark.contain-header-image .logo-wrapper {
+                color: #fff;
+            }
+
+            @media screen and (max-device-width: 568px) {
+                .header-image.cover {
+                    background-image: url(http://static.tumblr.com/fc07203adf91a5ee26fa4fb6312e13ff/f5v3r4e/Wryntp45x/tumblr_static_cix3toht3fkg444csk0ocg4ko_640_v2.jpg);
+                    -webkit-background-size: cover;
+                    background-size: cover;
+                }
+
+                .avatar-style-square .user-avatar {
+                    -webkit-box-shadow: 0 0 0 3px #444444;
+                    -moz-box-shadow: 0 0 0 3px #444444;
+                    box-shadow: 0 0 0 3px #444444;
+                }
+
+            }
+
