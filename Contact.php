@@ -6,11 +6,7 @@ require("php/class.phpmailer.php");
         $email = $_POST['email'];
         $message = $_POST['message'];
         $human = intval($_POST['human']);
-        $from = 'Contact from your Webpage'; 
-        $to = 'macmackinw1@gmail.com'; 
-        $subject = 'Message from your WebSite ';
-        
-        $body = "From: $name\n E-Mail: $email\n Message:\n $message";
+
  
         // Check if name has been entered
         if (!$_POST['name']) {
@@ -33,7 +29,26 @@ require("php/class.phpmailer.php");
  
 // If there are no errors, send the email
 if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
-	if (mail ($to, $subject, $body, $from)) {
+
+	$mail = new PHPMailer(true);
+	$mail->IsSMTP(); // telling the class to use SMTP
+
+	$mail->Host       = "smtp.sendgrid.net"; // SMTP server
+    $mail->SMTPDebug  = 2;                     // enables SMTP debug information 
+    $mail->SMTPAuth   = true;                  // enable SMTP authentication
+    $mail->Host       = "mail.sendgrid.net"; // sets the SMTP server
+    $mail->Port       = 587;                    // set the SMTP port for the GMAIL 
+    $mail->Username   = "sendmail!1@sendgrid.net"; // SMTP account username
+    $mail->Password   = "Mail2time";        // SMTP account password
+	//Set who the message is to be sent from
+	$mail->setFrom($email, $name);
+	//Set who the message is to be sent to
+	$mail->addAddress('macmackinw1@gmail.com', 'Max MacMackin');
+	$mail->Subject = 'Message from your WebSite';
+	$mail->AltBody = "From: $name\n E-Mail: $email\n Message:\n $message";   
+    
+
+	if ($mail->send()) {
         $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
     } else {
         $result='<div class="alert alert-danger">Sorry there was an error sending your message. Please try again later</div>';
